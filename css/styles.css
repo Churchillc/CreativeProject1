@@ -266,7 +266,7 @@ html {
 @media only screen and (min-width: 1201px) {
 
   .footer{
-    justify-content: right;
+    justify-content: space-around;
   }
 
   .icons{
