@@ -1,0 +1,301 @@
+/* Menu */
+.navbar {
+  background-color: #1F2833!important;
+  font-size: 20px;
+  display: flex;
+}
+
+.nav-link{
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #66fcf1;
+}
+
+
+.navbar-nav {
+  justify-content: right;
+}
+
+body {
+  color: #414141;
+  background-color: #0b0c10;
+  /*
+  background-color: #1F2833;
+  background-color: #C5c6c7;
+  background-color: #66fcf1;
+  background-color: #45a29e;*/
+
+}
+
+.ca-blurb{
+  text-align:center;
+  margin:  auto;
+  color: #C5c6c7;
+  padding-top: 50px;
+  font-size: 20px;
+  width: 60%;
+}
+
+
+#Shepherd{
+  width: 500px;
+}
+
+.picture{
+  display: flex;
+  justify-content: center;
+}
+
+.infotext{
+  text-align:center;
+  color: #C5c6c7;
+  padding-top: 50px;
+  font-size: 20px;
+  width: 40%;
+}
+
+.video{
+  display: flex;
+  border-style:solid;
+  border-color:#66fcf1;
+  border-width: 2px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 150px;
+  height: 70px;
+  line-height: 60px;
+  margin: auto;
+  color: #C5c6c7;
+  text-align: center;
+  font-size: 20px;
+  border-style:solid;
+  border-color:#66fcf1;
+  border-width: 2px;
+}
+
+.box:hover{
+  width: 160px;
+  background-color: #66fcf1;
+  color: black;
+}
+
+h1{
+  text-align:center;
+  color: #66fcf1;
+  font-size: 100px;
+}
+
+h2{
+  text-align:center;
+  color: #C5c6c7;
+  font-size: 70px;
+}
+
+h3{
+  font-size: 45px;
+  color: #66fcf1;
+  margin: auto;
+  text-align: center;
+}
+
+.blurb{
+  color: #C5c6c7;
+  font-size: 20px;
+  width: 40%;
+}
+
+.intro{
+  text-align:center;
+  color: #C5c6c7;
+  padding-top: 50px;
+  font-size: 20px;
+  margin: auto;
+  width: 70%
+}
+
+.story{
+  color: #C5c6c7;
+  font-size: 20px;
+  margin: auto;
+  width: 78%
+}
+
+.MyTitle {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-photo{
+  margin-left: auto;
+  margin-right: auto;
+  width:75%
+}
+
+.footer{
+  display: flex;
+  background-color: #1F2833;
+  align-items: center;
+  margin-top: 20px;
+  height: 300px
+}
+
+.icon{
+  width: 100px;
+}
+
+.icon:hover{
+  width: 110px;
+}
+
+#design-pic{
+  width: 800px;
+  margin: auto;
+  align-items: center;
+}
+
+
+
+
+
+
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Brick */
+.item {
+  background: #C5c6c7;
+  padding: 1em;
+  margin: 0 0 1.5em;
+}
+
+.ca{
+  width: 100%;
+}
+
+
+
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+}
+
+#instagram{
+  width: 130px;
+}
+
+#instagram:hover{
+  width: 140px;
+}
+
+.content{
+  align-items: center;
+}
+
+.row{
+  margin-left: 0px;
+  padding: 0px;
+  float: left;
+  width:200%;
+  border-style: solid;
+  border-color: red;
+}
+
+
+.spacer{
+  height: 100px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .blurb{
+    margin:auto;
+  }
+  #design-pic{
+    width: 400px;
+  }
+  .blurb{
+    width:70%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 1200px) {
+  .footer{
+    justify-content: center;
+  }
+  .blurb{
+    margin:auto;
+  }
+  #design-pic{
+    width: 600px;
+  }
+  .blurb{
+    width:70%;
+  }
+}
+
+
+@media only screen and (min-width: 1201px) {
+
+  .footer{
+    justify-content: right;
+  }
+
+  .icons{
+      margin-right: 100px;
+  }
+  .blurb{
+    margin-left: 200px;
+  }
+  h3{
+    margin-left: 130px;
+    text-align: left;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #design-pic{
+    padding-right: 120px;
+    width:900px;
+  }
+  .navbar{
+    height: 100px;
+  }
+
+  /* The Masonry Container */
+  .masonry {
+    margin: 1.5em auto;
+    column-gap: 1.5em;
+    column-count: 3;
+  }
+}
